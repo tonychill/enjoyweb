@@ -1,0 +1,20 @@
+{
+  "api": {
+    "invokeUrl": "https://5bltcq602h.execute-api.us-west-2.amazonaws.com/prod"
+  },
+  "cognito": {
+    "REGION": "us-east-1",
+    "USER_POOL_ID": "us-east-1_vzsWxPa02",
+    "APP_CLIENT_ID": "2spkbnc7lofvsd99j80nai0tn7"
+  },
+  "build": {
+    "env": {
+      "CONTENTFUL_SPACE_ID": "86lev5oo3i85",
+      "CONTENTFUL_ACCESS_TOKEN": "oOhyexpsDnHKC0Z7tSAT-hmqFzsQDm-GdkT0Sjmd4I8"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "DOMAIN": "www.enjoythevi.com"
+  }
+}

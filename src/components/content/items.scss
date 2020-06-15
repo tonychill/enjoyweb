@@ -1,0 +1,75 @@
+.carousel .slide img {
+  position: relative;
+  top: -0%;
+  width: 100%;
+  vertical-align: top;
+  border: 0;
+}
+.bookable-cta {
+  //background-color: #cecece;
+  height: 350px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #cfd6e4;
+  padding: 20px;
+}
+.slider-bg {
+  background-color: #cecece;
+  height: 350px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.test-media-bg {
+  background: lightblue;
+  background-size: cover;
+  min-height: 390px !important;
+
+  // border-radius: 8px;
+}
+@media (max-width: 514px) {
+  .test-media-bg {
+    height: 200px;
+  }
+}
+
+.room-attributes {
+  color: #424242;
+  font-size: 0.8rem;
+}
+.carousel-indicators li {
+  width: 8px !important;
+  height: 8px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-radius: 8px !important;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-radius: 0.65rem !important;
+  overflow: hidden !important;
+}
+.carousel {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  //   max-height: -webkit-calc(60vh - 64px) !important;
+  //   max-height: -moz-calc(60vh - 64px) !important;
+  //   max-height: calc(60vh - 64px) !important;
+  //   height: 100% !important;
+  //   width: 100% !important;
+  //   max-height: -webkit-calc(100vh - 144px) !important;
+  //   max-height: -moz-calc(100vh - 144px) !important;
+  //   max-height: calc(100vh - 144px) !important;
+}
+hr {
+  width: 100% !important;
+}
+.d-border {
+  border-radius: 1rem;
+}
+
+.sticky-top {
+  top: 82px !important;
+  height: 100%;
+}

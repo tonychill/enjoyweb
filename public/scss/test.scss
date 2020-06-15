@@ -1,0 +1,70 @@
+.test-lob {
+  height: 150px;
+  width: 500px;
+  background-color: #509cff;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.test-lom {
+  height: 20px;
+  position: sticky;
+  top: 60px;
+}
+// .tony {
+//   overflow: hidden;
+// }
+
+.intercom-lightweight-app-launcher {
+  margin-bottom: 86px !important;
+  // margin-bottom: env(safe-area-inset-bottom, 86px) !important;
+}
+
+@media (max-width: 414px) {
+  .modal-dialog {
+    margin: 0 !important;
+  }
+  .modal-content {
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    border: 0 !important;
+    border-radius: 0px !important;
+  }
+  .navbar-brand-text,
+  .desktop-menu {
+    display: none;
+  }
+  .t-nav-bg {
+    background: #ffffff;
+  }
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.test-search-bar {
+  -webkit-box-flex: 1 !important;
+  -ms-flex-positive: 1 !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  background-color: #ffffff !important;
+  border: 1px solid #f3f3f3 !important;
+  border-radius: 24px !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  -webkit-flex-grow: 1 !important;
+  flex-grow: 1 !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+.test-search-bar:hover {
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.15) !important;
+}
+
+.test-carousel-item {
+  background-color: #4fd0f7;
+  height: 300px;
+}

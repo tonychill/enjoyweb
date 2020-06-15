@@ -1,0 +1,55 @@
+.nv-ct {
+  left: 0;
+  width: 65px;
+  background: #fff;
+  z-index: 98 !important;
+  height: 100%;
+  overflow: scroll;
+  min-height: 390px;
+}
+.nv-ct a {
+  display: block;
+  margin: auto;
+  outline: none;
+  letter-spacing: 0.0107142857em;
+  text-transform: none;
+}
+.nv-ct img {
+  margin-top: -7px;
+  /*margin-right: 15px;*/
+}
+.sd-nv {
+  border-right: solid 1px #f0f0f2;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 499px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .nv-ct {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(
+      --theme-ui-colors-navigation-background,
+      rgba(255, 255, 255, 0.985)
+    );
+    border-color: var(--theme-ui-colors-ui-border, #f0f0f2);
+    border-top-style: solid;
+    border-top-width: 1px;
+    bottom: 0rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Futura PT, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+    left: 0rem;
+    padding-bottom: env(safe-area-inset-bottom);
+    position: fixed;
+    right: 0rem;
+    z-index: 5;
+  }
+}

@@ -1,0 +1,356 @@
+/*CSS Names and values
+mw - min-width, mw1 = min-width:100px, mw12 = 120px
+nv - navigatin elements
+ct - container element
+lx - links
+mk - marker
+mw - min-width
+bd - border
+bx - box
+*/
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,400,800&display=swap");
+@import "../scss/test.scss";
+.testing {
+  background-color: #cecece;
+  height: 350px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.stick-0 {
+  top: 0;
+  height: 100%;
+}
+
+//Custom Widths
+._mw1 {
+  min-width: 100px;
+}
+._mw3 {
+  min-width: 335px;
+}
+._mw4 {
+  min-width: 400px;
+}
+.stick-1 {
+  top: 6rem;
+  height: 100%;
+}
+.stick-2 {
+  top: 3rem;
+  height: 100%;
+}
+.intercom-launcher-frame {
+  margin-bottom: 65px;
+}
+.flex-item {
+  flex-grow: 1;
+}
+
+.mw-700 {
+  max-width: 700px;
+}
+.svg-btn-icon {
+  height: 15px;
+  margin-left: 0.5rem;
+  margin-bottom: 0.125rem;
+}
+.stick-top {
+  position: fixed;
+  top: 0;
+}
+.lkb {
+  color: #007bff !important;
+}
+.txt {
+  color: #757575;
+  color: #404040;
+  color: #4683e9;
+}
+body {
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 200 !important;
+  font-size: 18px;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+.sn-mk {
+  position: absolute;
+  width: 3px;
+  height: 45px;
+  background: #46b2ff;
+  left: 0px;
+  top: 64px;
+  transition-delay: 0.5;
+}
+.t-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #404040;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-shadow: 0 8px 15px rgba(100, 100, 100, 0.1);
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-cta {
+  color: #404040;
+  background-color: #fff;
+}
+.d-lx-mk {
+  position: absolute;
+  width: 3px;
+  height: 45px;
+  left: 0px;
+  top: 64px;
+}
+.d-lx-mk:hover {
+  background: #b0d5ff;
+  transition-delay: 0.5;
+}
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+.story-wrap {
+  max-width: 1120px;
+  margin: auto;
+}
+.bd-rad {
+  border-radius: 0.5rem;
+}
+a {
+  cursor: pointer;
+}
+p a {
+  color: #46b2ff;
+}
+.soc-tools {
+  max-width: 40px;
+}
+.mw265 {
+  min-width: 250px;
+  width: 250px;
+  flex-basis: auto;
+}
+
+/*
+.f-ct {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}*/
+.mn-ct {
+  /*flex: 0 0 80%;*/
+  width: 100%;
+  margin: auto;
+}
+
+.curs-point {
+  cursor: pointer;
+}
+.t-items {
+  top: 65px !important;
+  overflow: scroll;
+  height: 100vh;
+}
+.trends-wrap:hover {
+  background: #f3f3f3d6;
+}
+.t-story-link:hover {
+  text-decoration: none !important;
+}
+.show {
+  display: block !important;
+}
+/*Story Post Styling and Adjustments*/
+.s-head-adj {
+  margin: 0.8rem !important;
+}
+.loc-txt {
+  font-size: 0.85em;
+  color: gray;
+}
+.bx-sdw {
+  box-shadow: 0 8px 15px rgba(100, 100, 100, 0.1);
+}
+.card {
+  line-height: 1.2 !important;
+}
+
+.s-cta {
+  top: 80px;
+  position: -webkit-sticky;
+}
+// Remove this
+.main-content-wrap {
+  margin: 0px;
+  position: relative;
+}
+
+.nav * {
+  color: #494f54 !important;
+}
+
+.sec-head {
+  font: 400 24px/32px "Sans", Roboto, Arial, sans-serif;
+  letter-spacing: normal;
+}
+#signupgraphic {
+  background-image: url(/static/media/signuppic.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+/************ ~ Min Widths ~ ************/
+.mw200 {
+  min-width: 200px;
+}
+.mw300 {
+  min-width: 300px;
+}
+
+.mw400 {
+  min-width: 400px;
+}
+
+.mw500 {
+  min-width: 500px;
+}
+
+.mw600 {
+  min-width: 600px;
+}
+
+.ht10v {
+  height: 100vh !important;
+}
+/************ ~ Bootstrap Resets ~ ************/
+.form-control {
+  font-weight: 200 !important;
+}
+.ovh {
+  overflow: hidden;
+}
+/**************************
+*                         *
+*       Not needed!       *
+*                         *
+/*************************/
+
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.react-multi-carousel-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, transition;
+}
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all 0.5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 43px;
+  min-height: 43px;
+  opacity: 1;
+  cursor: pointer;
+}
+.react-multiple-carousel__arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.react-multiple-carousel__arrow::before {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(4% + 1px);
+}
+.react-multiple-carousel__arrow--left::before {
+  content: "\e824";
+}
+.react-multiple-carousel__arrow--right {
+  right: calc(4% + 1px);
+}
+.react-multiple-carousel__arrow--right::before {
+  content: "\e825";
+}
+.react-multi-carousel-dot-list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  transition: background 0.5s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+}
+.react-multi-carousel-dot button:hover {
+  background: #080808;
+}
+.react-multi-carousel-dot--active button {
+  background: #080808;
+}
+.react-multi-carousel-item {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .react-multi-carousel-item {
+    flex-shrink: 0 !important;
+  }
+  .react-multi-carousel-track {
+    overflow: visible !important;
+  }
+}

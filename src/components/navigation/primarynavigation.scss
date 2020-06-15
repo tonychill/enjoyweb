@@ -1,0 +1,27 @@
+.t-nav-bg {
+  background: #ffffff;
+  /*background: linear-gradient(
+    180deg,
+    rgba(244, 244, 244, 1) 50%,
+    rgba(255, 255, 255, 0) 98%
+  );*/
+}
+
+.nv-drop {
+  display: none;
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: rgba(0, 0, 0, 0.05) -1px 1px 5px !important;
+  min-width: 282px !important;
+  max-width: 950px !important;
+  height: 0px;
+  position: absolute !important;
+  right: 0px !important;
+  top: 0px !important;
+  /*border-width: 1px 1px 1px !important;
+  border-style: none solid solid !important;
+  border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgb(235, 235, 235) !important;
+  border-image: initial !important;*/
+  border-top: none !important;
+  margin-top: 58px;
+  height: auto;
+}

@@ -1,0 +1,20 @@
+.planner {
+  width: 100%;
+}
+
+@media (min-width: 1195px) {
+  .cus-col-lg-3 {
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
+}
+
+.b-wrap {
+  position: relative;
+}
+.b-container {
+  height: 280px;
+  background-color: #cecece;
+  background-size: cover;
+  background-position: 50% 50%;
+}
